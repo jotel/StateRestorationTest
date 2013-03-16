@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  StateRestorationTest
 //
 //  Created by Jaroslaw Lewandowski on 14/03/2013.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SecondViewController : UIViewController<UIViewControllerRestoration>
 
 @end
